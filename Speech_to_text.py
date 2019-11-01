@@ -24,7 +24,7 @@ class App():
 			except sr.RequestError as e: 
 				print("Could not request results from Google Speech Recognition service; {0}".format(e))	
 		else:
-			messagebox.showerror("Invalid","Please select wav format file")
+			messagebox.showerror("Invalid","Please select .wav format file")
 
 
 
