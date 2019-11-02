@@ -1,2 +1,2 @@
 I have used google's speech Recognition library.
-A better model for accurately converting the speech can be created, which requires a huge amount of voice data and expertise in deep learning.
+A better model for accurately converting the speech can be created by training deep learning models on large amounts of voice data.
