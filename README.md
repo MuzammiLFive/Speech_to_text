@@ -12,3 +12,8 @@ Scope for improvements:
 - Only WAV files are accepted at the moment, more types of audio formats can also be accomodated.
 - Better library to perform speech recognition, here the limitation for me was the limit of github(25 MB) which discouraged me to use other libraries.
 - Option to record audio can be added too.
+
+Required packages:
+
+- Tkinter
+- speechRecognition
