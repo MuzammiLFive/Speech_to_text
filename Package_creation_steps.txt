@@ -1,0 +1,19 @@
+Creating a package in python:
+
+1) Create a folder with any name ex:pkg and create a folder with packagename ex:packageMuz.
+2) Inside the folder packageMuz create another folder packageMuz.
+   alongside this folder there contains:
+   a) setup.py
+   b) readme.txt
+   c) License.txt
+3) Create a __init__.py file inside 2nd packageMuz folder. init is a constructor which tells
+   setup.py that it contains the package. We can write any code inside __init__.py, run and save
+   it.
+4) complete setup.py file with all the details of package.
+5) Now we create a wheel file(have wheel package installed). Navigate using cd to target location
+   >> python setup.py sdist bdist_wheel
+   This will create a directory
+6) >> cd dist (a wheel file will be present)
+   >> pip install .\packageMuz-0.1-py3-none-any.whl
+   This will install the package.
+7) >> import packageMuz
